@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "clean": "del /f /q .turbo && del /f /q node_modules && del /f /q dist",
+    "dev": "vite --host --port 6080 --clearScreen false",
+    "lint": "eslint src/**/*.ts*"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^3.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-web": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.3",
+    "vite": "^4.0.4"
+  }
+}

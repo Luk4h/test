@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-web",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-prettier": "latest",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-config-api": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

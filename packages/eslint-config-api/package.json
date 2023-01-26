@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-api",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-prettier": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
